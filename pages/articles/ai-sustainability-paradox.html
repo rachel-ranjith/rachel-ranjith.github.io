@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Paradox of AI and Sustainability — Rachel Ranjith</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <a href="../../index.html" class="nav-logo">RR</a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="../articles.html">Articles</a></li>
+            <li><a href="../society.html">Society</a></li>
+            <li><a href="../achievements.html">Achievements</a></li>
+            <li><a href="../experience.html">Experience</a></li>
+            <li><a href="../projects.html">Projects</a></li>
+            <li><a href="../../assets/docs/resume.pdf" class="nav-cta">Résumé</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article class="article">
+            <header class="article-header">
+                <a href="../articles.html" class="article-back">← Back to Articles</a>
+                <h1>The Paradox of AI and Sustainability</h1>
+                <div class="article-meta">
+                    <span>March 2025</span>
+                    <span class="meta-divider">·</span>
+                    <span>6 min read</span>
+                    <span class="meta-divider">·</span>
+                    <a href="https://drive.google.com/file/d/1S2RWoMfCoJ8WxBPJt1eR6gIqEcdXthzt/view?usp=sharing" target="_blank" rel="noopener" class="original-link">Read PDF ↗</a>                    
+                </div>
+            </header>
+
+            <div class="article-content">
+                
+                <p>Artificial Intelligence has become a powerful force for sustainability in recent years. From Google's Environmental Insights Explorer, which simulates the impact of green roofs or EV charging stations before cities invest in them, to Rainforest Connection's AI-powered acoustic sensors that detect illegal logging in real time, significant innovation has been kickstarted by this technological revolution. AI has become an undeniable part of our future, and companies harnessing its power for the greater good represent a noble endeavour.</p>
+                <p>However, training an AI model generates a truly staggering amount of carbon emissions. Training GPT-3 consumed 1,287 MWh of electricity and resulted in 502 metric tons of carbon emissions—equivalent to driving 112 petrol-powered cars for a year. This near-directly negates many of the positive externalities that AI could produce. Issues such as sustainability cannot be addressed when the tools used to combat them potentially exacerbate the problem, creating the current paradox: AI both mitigates and worsens climate change.</p>
+                
+                <h2>The Dirty Secret of AI's Carbon Footprint</h2>
+                <p>AI requires enormous data centres, which derive most of their energy from fossil fuels. These facilities account for 2.5 to 3.7 percent of global greenhouse gas emissions—exceeding even the aviation industry. Data centres also demand vast quantities of water for cooling servers, with recent studies showing some facilities use up to 5 million gallons daily.</p>
+                <p>Training a single large language model can emit approximately 300 tons of CO₂, according to MIT research. The culprits are massive data centres, energy-hungry GPUs, and redundant model retraining. The irony is stark: AI optimizes energy grids and cuts waste across industries—while itself being profoundly wasteful.</p>
+                
+                <h2>Green AI: Smaller, Smarter, and Sustainable Models</h2>
+                <p>Due to the widespread normalisation of AI in the workplace, academia, and daily life, the initial and most important step is ensuring AI's own sustainability. The solution lies not in bigger models, but in smarter ones.</p>
+                <p>Fine-tuning existing models instead of developing even larger new ones would make AI more efficient and save energy. Many AI models are "overparameterised"—pruning networks to remove redundant parameters that don't affect performance could significantly reduce computational costs and storage requirements. The goal for AI developers is finding ways to reduce parameters without sacrificing accuracy.</p>
+                <p>Different algorithms have varying strengths and weaknesses, and finding the most efficient approach depends on the task, data type, and available computational resources. Researchers note that the most efficient algorithms aren't always implemented—either because developers don't know them, they require more programming effort, or legacy implementations persist. By implementing algorithms more efficiently, significant electricity savings become possible.</p>
+                <p>Large language models aren't needed for every task. Choosing smaller AI models for simpler jobs represents an effective way to save energy. Using massive models might be worth the electricity to discover new antibiotics, but not to write limericks. Some researchers are creating language models using datasets 1/10,000th the size of those in large language models. The BabyLM Challenge aims to get a language model to learn language nuances from scratch as humans do, based on datasets representing what children are exposed to—a maximum of 100,000 words, equivalent to what a 13-year-old has encountered. A smaller model takes less time and fewer resources to train, thus consuming less energy.</p>
+
+                <h2>Emerging Technical Solutions</h2>
+                <p>Several promising technologies are emerging. TinyML, MIT's ultra-efficient AI for edge devices, runs on small microcontrollers instead of energy-intensive data centres. Pruning and quantisation techniques trim unnecessary neural network weights. Google's DistillBERT performs nearly as well as BERT with 40% less energy. Neuromorphic chips, such as Intel's Loihi, mimic the brain's efficiency using approximately 1/1,000th the energy of GPUs. Quantum AI, while still early-stage, promises exponential efficiency gains for optimisation tasks. The challenge remains whether these technologies can scale before AI's energy use explodes further.</p>
+
+                <h2>Organisational Efforts for AI Sustainability</h2>
+                <p>Admirable efforts to increase AI sustainability from an organisational standpoint are already underway. Since traditional data centre cooling methods are unsustainable, Microsoft researchers are using a special fluid engineered to boil 90 degrees lower than water's boiling point to cool computer processors. This liquid immersion cooling is more energy-efficient than air conditioners, reducing server power consumption by 5 to 15 percent.</p>
+                <p>Eventually, data centres may move from the cloud into space. Lunar data centres could take advantage of abundant solar energy and would be less susceptible to natural disasters and sabotage. Thales Alenia Space is leading a feasibility study on building data centres in space that would run on solar energy, attempting to determine whether launch and production would result in fewer carbon emissions than terrestrial facilities.</p>
+                <p>Moving large jobs to data centres where energy can be sourced from clean energy grids makes a substantial difference. The training of Hugging Face's BLOOM model with 176 billion parameters consumed 433 MWh of electricity, resulting in 25 metric tons of CO₂ equivalent—trained on a French supercomputer run mainly on nuclear energy. Compare this to GPT-3 with 175 billion parameters: 1,287 MWh consumed, resulting in 502 metric tons of carbon dioxide equivalent.</p>
+                
+                <h2>The Path Forward: Policies and Accountability</h2>
+                <p>Seven policy recommendations are often highlighted as necessary changes to stimulate green AI: mandate transparency; account for the full-stack supply chain; watch out for rebound effects; ensure energy is considered in non-energy-related policies; integrate technology and climate policy; curb the use of AI to make fossil fuel extraction more efficient; and address AI's impact on climate refugees.</p>
+                <p>Regulation is clearly needed but has been challenging for several reasons. Regulation notoriously lags behind innovation, and jurisdictions are only now beginning to catch up to regulating AI in general. On a global level, both the Organisation for Economic Co-operation and Development and the Global Partnership on Artificial Intelligence are developing policy recommendations. While many countries have published rules and guidelines for regulating AI, there remains a glaring lack of focus on environmental factors.</p>
+                <p>However, substantial regulation on data centre energy efficiency already exists in different jurisdictions. The most comprehensive legislation is found in the EU, with four relevant regulations. The EU's Energy Efficiency Directive requires owners and operators of data centres with a minimum capacity of 500 kW to disclose their energy consumption, proportion of renewable energy used, water consumption, and amount of waste heat reuse. The EU's Taxonomy Environmental Delegated Act applies to investors, requiring them to determine whether data centres comply with best sustainability practices. The Corporate Sustainability Reporting Directive requires commercial data centres to provide energy and sustainability reporting data to customers and authorities. The Corporate Sustainability Due Diligence Directive ensures social and environmental considerations are taken into account in company governance.</p>
+                <p>Additional approaches include carbon-aware training—scheduling computations when renewable energy availability is high, as exemplified by Google's "24/7 Carbon-Free Energy" pledge. Transparency mandates requiring AI companies to disclose emissions per model, similar to food labels, are under consideration. Investor pressure is also mounting, with some venture capitalists funding only "green AI" startups.</p>
+
+                <h2>What's Next?</h2>
+                <p>AI cannot fight climate change if it is part of the problem. AI's role in sustainability depends fundamentally on reducing its own environmental impact. The trade-off between cutting-edge innovation and environmental responsibility represents a defining challenge for the technology industry.</p>
+                <p>Yet there is hope. Innovations in efficient hardware, leaner models, and policy shifts are emerging. The path forward requires a global shift toward low-energy AI models and infrastructure. The technology industry must adopt "zero-waste AI" principles—or risk undermining its own sustainability goals. The paradox of AI and sustainability can be resolved, but only through deliberate, coordinated action across research, industry, and policy.</p>
+
+            </div>
+
+            <footer class="article-footer">
+                <p>Originally submitted for the <a href="https://drive.google.com/file/d/1S2RWoMfCoJ8WxBPJt1eR6gIqEcdXthzt/view?usp=sharing/" target="_blank" rel="noopener">Council on Business & Society</a>, March 2025.</p>
+            </footer>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 Rachel Ranjith</p>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>
